@@ -5,6 +5,12 @@ import org.apache.commons.configuration.PropertiesConfiguration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * @author Ekaterina Fomenko
+ * @brief This class contains all bot configuration information
+ * @date 6 of December of 2016
+ */
+
 public class BotConfiguration {
     private String botUsername;
     private String botToken;

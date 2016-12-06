@@ -1,0 +1,6 @@
+
+.idea/
+cacoobot.iml
+src/main/resources/cacoobot_pasw.properties
+src/test/
+target/

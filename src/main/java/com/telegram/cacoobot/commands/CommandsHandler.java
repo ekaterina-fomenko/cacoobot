@@ -9,6 +9,12 @@ import org.telegram.telegrambots.api.objects.Message;
 import org.telegram.telegrambots.api.objects.Update;
 import org.telegram.telegrambots.bots.TelegramLongPollingCommandBot;
 
+/**
+ * @author Ekaterina Fomenko
+ * @brief This class register bot commands and process non commands messages
+ * @date 6 of December of 2016
+ */
+
 public class CommandsHandler extends TelegramLongPollingCommandBot {
     public static Logger log = LoggerFactory.getLogger(CommandsHandler.class);
     public static final CommandsHandler INSTANCE = new CommandsHandler();

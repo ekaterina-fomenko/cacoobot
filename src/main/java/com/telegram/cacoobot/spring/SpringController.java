@@ -8,6 +8,12 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import org.springframework.stereotype.Controller;
 
+/**
+ * @author Ekaterina Fomenko
+ * @brief This class using for mapping urls for getting needed authorization parameters from cacoo site.
+ * @date 6 of December of 2016
+ */
+
 @Controller
 public class SpringController {
 

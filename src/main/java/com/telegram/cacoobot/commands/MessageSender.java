@@ -6,6 +6,12 @@ import org.telegram.telegrambots.TelegramApiException;
 import org.telegram.telegrambots.api.methods.send.SendMessage;
 import org.telegram.telegrambots.bots.AbsSender;
 
+/**
+ * @author Ekaterina Fomenko
+ * @brief This is common message sender class for all bot commands
+ * @date 6 of December of 2016
+ */
+
 public class MessageSender {
     public static Logger log = LoggerFactory.getLogger(CommandsHandler.class);
 

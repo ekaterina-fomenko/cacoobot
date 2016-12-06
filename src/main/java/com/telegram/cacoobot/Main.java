@@ -7,6 +7,11 @@ import org.slf4j.LoggerFactory;
 import org.telegram.telegrambots.TelegramApiException;
 import org.telegram.telegrambots.TelegramBotsApi;
 
+/**
+ * @author Ekaterina Fomenko
+ * @date 6 of December of 2016
+ */
+
 public class Main {
     public static Logger log = LoggerFactory.getLogger(Main.class);
 

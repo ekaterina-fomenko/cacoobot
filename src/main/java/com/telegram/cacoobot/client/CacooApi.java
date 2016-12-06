@@ -3,6 +3,12 @@ package com.telegram.cacoobot.client;
 import com.github.scribejava.core.builder.api.DefaultApi10a;
 import com.github.scribejava.core.model.OAuth1RequestToken;
 
+/**
+ * @author Ekaterina Fomenko
+ * @brief This is an Api for Cacoo site
+ * @date 6 of December of 2016
+ */
+
 public class CacooApi extends DefaultApi10a {
     public static final String CACOO_URL = "https://cacoo.com/";
     private static final String AUTHORIZE_URL = CACOO_URL + "oauth/authorize?oauth_token=%s";
